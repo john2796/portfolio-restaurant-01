@@ -1,0 +1,280 @@
+/*variables */
+:root {
+
+
+  --white: #FFFFFF;
+  --black: #212529;
+  --gold: #c6b067;
+  --darkGold: #887025;
+  --goldBtn: #bfa760;
+  --pTag: #777777;
+  --transparentBlack: rgba(12, 12, 13, 0.78);
+  --gray1: #818181;
+  --gray2: #818181c4;
+  --navColor: rgba(12, 12, 13, 0.78);
+  --formBg: #383733;
+  --contactBg: #141313;
+  --formText: #4b4747;
+}
+
+/* 
+Example of How to call this variables
+color: var(--black); 
+*/
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&subset=latin-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400i');
+@import url('https://fonts.googleapis.com/css?family=Cabin:400i');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Oswald:700');
+@import url('https://fonts.googleapis.com/css?family=Cabin:700');
+@import url('https://fonts.googleapis.com/css?family=Bitter:700');
+
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Global */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+h2 {
+  text-align: center;
+  font-family: "Cabin";
+  font-weight: 600;
+  font-size: 2.8rem;
+  color: #383733;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #444342;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 4.8rem;
+  font-weight: 400;
+  margin: 15px 0px 15px 0px;
+}
+
+h4 {
+  font-family: "Yellowtail", serif;
+  font-size: 2.5rem;
+  color: #141313;
+  text-align: center;
+  font-weight: 400;
+
+}
+
+h5 {
+  font-family: "Great Vibes", serif;
+  font-size: 6.2rem;
+  color: var(--gold);
+  margin-bottom: 30px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+
+a {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 6px;
+  border-bottom: 3px solid transparent;
+  text-shadow: 0px 0px 1px transparent;
+  text-decoration: none;
+}
+
+
+
+p {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--pTag);
+  margin-bottom: 40px;
+  line-height: 32px;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* .container {
+  max-width: 976px;
+  width: 100%;
+  margin: 0 auto;
+} */
+
+.wrapper {
+  max-width: 1168px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* Global repeating class */
+
+.gold {
+  color: var(--gold);
+}
